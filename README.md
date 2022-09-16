@@ -1,3 +1,5 @@
+## 修改'caddy.conf'
+#### 第一行'http://你的域名 {'
 #### Docker安装v2board
 ```shell
 bash <(curl -Ls https://raw.githubusercontent.com/20020314/v2board-docker/master/docker.sh)
@@ -43,5 +45,5 @@ sh update.sh
 ```shell
 php artisan horizon &
 ```
-### **数据库自备**
+
 
