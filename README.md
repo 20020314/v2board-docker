@@ -1,26 +1,47 @@
 #### Docker安装v2board
-
-`bash <(curl -Ls https://raw.githubusercontent.com/20020314/v2board-docker/master/docker.sh)`
-
-`bash <(curl -Ls https://raw.githubusercontent.com/20020314/v2board-docker/master/install.sh)`
+```shell
+bash <(curl -Ls https://raw.githubusercontent.com/20020314/v2board-docker/master/docker.sh)
+```
+```shell
+bash <(curl -Ls https://raw.githubusercontent.com/20020314/v2board-docker/master/install.sh)
+```
 ### 启动
-`dc up -d`
+```shell
+dc up -d
+```
 ### 进入容器
-`dc exec www bash`
+```shell
+dc exec www bash
+```
 #### **容器内执行**
-`wget https://getcomposer.org/download/1.9.0/composer.phar` 
-
-`php composer.phar global require hirak/prestissimo` 
-
-`php -d memory_limit=-1 composer.phar install` 
-
-`php artisan v2board:install`
+```shell
+wget https://getcomposer.org/download/1.9.0/composer.phar
+```
+```shell
+php composer.phar global require hirak/prestissimo`
+```
+```shell
+php -d memory_limit=-1 composer.phar install` 
+```
+```shell
+php artisan v2board:install
+```
 #### **启动horizon**
-`dc exec www bash`
-`php artisan horizon &`
+```shell
+dc exec www bash
+```
+```shell
+php artisan horizon &
+```
 #### **升级**
-`dc exec www bash`
-`sh update.sh`
-`php artisan horizon &`
+```shell
+dc exec www bash
+```
+```shell
+sh update.sh
+```
+```shell
+php artisan horizon &
+```
 ### **数据库自备**
 
