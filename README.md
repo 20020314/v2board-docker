@@ -18,10 +18,10 @@ dc exec www bash
 wget https://getcomposer.org/download/1.9.0/composer.phar
 ```
 ```shell
-php composer.phar global require hirak/prestissimo`
+php composer.phar global require hirak/prestissimo
 ```
 ```shell
-php -d memory_limit=-1 composer.phar install` 
+php -d memory_limit=-1 composer.phar install
 ```
 ```shell
 php artisan v2board:install
