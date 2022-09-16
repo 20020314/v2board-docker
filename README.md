@@ -1,3 +1,4 @@
+## 最低要求2核4G
 ## 修改'caddy.conf'
 #### 第一行'http://你的域名 {'
 #### Docker安装v2board
