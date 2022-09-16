@@ -3,9 +3,9 @@
 `bash <(curl -Ls https://raw.githubusercontent.com/20020314/v2board-docker/master/docker.sh)`
 
 `bash <(curl -Ls https://raw.githubusercontent.com/20020314/v2board-docker/master/install.sh)`
-
+### 启动
 `dc up -d`
-
+### 进入容器
 `dc exec www bash`
 #### **容器内执行**
 `wget https://getcomposer.org/download/1.9.0/composer.phar` 
