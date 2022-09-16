@@ -7,6 +7,9 @@ bash <(curl -Ls https://raw.githubusercontent.com/20020314/v2board-docker/master
 ```shell
 bash <(curl -Ls https://raw.githubusercontent.com/20020314/v2board-docker/master/install.sh)
 ```
+```shell
+cd /root/V2Board/v2board-docker
+```
 ### 启动
 ```shell
 dc up -d
