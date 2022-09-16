@@ -9,7 +9,7 @@ services:
       - '/root/V2Board/v2board-docker/supervisord.conf:/run/supervisor/supervisord.conf'
       - '/root/V2Board/v2board-docker/crontabs.conf:/etc/crontabs/root'
       - '/root/V2Board/v2board-docker/caddy:/root/.caddy'
-    ports:
-      - '80:80'
-      - '443:443'
+#    ports:
+#     - '80:80'
+#      - '443:443'
     restart: always
